@@ -1,0 +1,27 @@
+.choice-box {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.choice-box div {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.choice-box .selected {
+    background-color: #007bff;
+    color: #fff;
+}
+.square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.letter {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
